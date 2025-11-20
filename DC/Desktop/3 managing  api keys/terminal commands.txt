@@ -1,0 +1,21 @@
+sudo apt update
+sudo apt install python3-venv -y
+python3 -m venv venv
+source venv/bin/activate
+
+sudo apt install python3-pip -y
+pip3 install flask requests
+
+sudo apt update
+sudo apt install curl -y
+---------------------------------
+
+server terminal : 
+python -m pip install flask
+python server.py
+
+
+client terminal : 
+python -m pip install requests
+python client.py
+
